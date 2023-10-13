@@ -1,6 +1,6 @@
 zakupy = {
     "piekarnia": ["chleb", "pączek", "bagietka"],
-    "warzywniak": ["marchew", "seler", "rukola"]
+    "warzywniak": ["marchew", "seler", "cukinia"]
 }
 
 liczba_produktow = 0
