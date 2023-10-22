@@ -1,3 +1,4 @@
+# Pozdrowienia z nowego branchu. To repozytorium miało chyba mieć nazwę learning-git-task, ale niech już zostanie learning-git.
 zakupy = {
     "piekarnia": ["chleb", "pączek", "bułka"],
     "warzywniak": ["marchew", "seler", "cukinia"]
