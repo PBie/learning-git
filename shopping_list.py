@@ -1,19 +1,19 @@
-# Pozdrowienia z nowego branchu. To repozytorium miało chyba mieć nazwę learning-git-task, ale niech już zostanie learning-git.
-zakupy = {
+# Jasne, zapomniałem o angielskich zmiennych.
+shopping = {
     "piekarnia": ["chleb", "pączek", "bułka"],
     "warzywniak": ["marchew", "seler", "cukinia"]
 }
 
-liczba_produktow = 0
+products_number = 0
 
 print("Lista zakupów")
 
-for sklep, produkty in zakupy.items():
-    sklep = sklep.upper()
-    produkty = [produkt.upper() for produkt in produkty]
+for shop, products in shopping.items():
+    shop = shop.upper()
+    products = [product.upper() for product in products]
     
-    print(f"Idę do {sklep} i kupuję tam: {produkty}.")
+    print(f"Idę do {shop} i kupuję tam: {products}.")
 
-    liczba_produktow += len(produkty)
+    products_number += len(products)
 
-print(f"W sumie kupuję {liczba_produktow} produktów.")
+print(f"W sumie kupuję {products_number} produktów.")
